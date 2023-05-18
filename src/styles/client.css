@@ -1,0 +1,19 @@
+.what-they-said{
+    margin: 4rem 0;
+    gap: 1rem;
+    display: flex;
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+}
+.said{
+    height:400px;
+    width: 400px;
+    border-radius: 34px;
+    background-color: white;
+    padding: 1rem 1.7rem; 
+}
+.client{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

@@ -1,0 +1,62 @@
+.popular-courses{
+    background-color:  #F8F9FC;
+    padding: 4rem 3rem;
+}
+.courses{
+    text-align: center;
+}
+.courses > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.categories{
+    color:#004DB3;
+    background-color: white;
+    width: 10%;
+    text-align: center;     
+    padding: .5rem 0;       
+}
+#design{
+    color: #1E5DCE;
+}
+.researched{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin: 1rem 0 4rem 0;
+}
+.research{
+    background-color: white;
+    border-radius: 16px;
+    padding: 1rem;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+.research > img{
+    width: 100%;
+}
+.research-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+#design{
+background-color:  #1E5DCE33;
+border-radius: 16px;
+width: 99px;
+padding: .5rem 1rem;
+}
+.schedule{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.popular-courses button{
+    display: block;
+    margin: 0 auto;
+}

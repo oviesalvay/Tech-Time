@@ -1,0 +1,124 @@
+h1{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 600;
+}
+h2{
+    font-size: 3rem;
+    margin: 3rem 0 0 0 ;
+}
+h3{
+    font-size: 2.8rem;
+    text-align: center;
+}
+h4{
+    font-size: 2rem;
+}
+h5{
+    color: #004DB3;
+  font-size: 1.5rem;
+}
+h6{
+    font-size: 1.2rem;
+}
+.introduction{
+    background-color:  #004DB3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem clamp(1rem, 6vw, 10rem) 0 clamp(1rem, 6vw, 10rem);  
+}
+.introduction-to{
+    flex-grow: 1;
+    margin: 5rem 0;
+    flex-basis: 400px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.introduction-to button{
+    padding: 1rem 2rem;
+    margin:  1rem 0;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #DDDDDD;
+}
+button{
+    font-family: 'satoshi';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.get-started{
+    color: white;
+    background-color: #004DB3;
+    border: none;
+    padding: 1rem 2rem;
+    background-image: url(../asssest/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+.get-started:hover{
+    background-color: white;
+    color:#004DB3;
+    transition: all ease .3s;
+    font-size: 1rem;
+}
+.enroll{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: white;
+    color:#004DB3;
+}
+.enroll:hover{
+    background-color: #004DB3;
+    color: white;
+    border: 1px solid #DDDDDD;
+    transition: all ease .3s;
+    font-size: 1rem;
+}
+.preview{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+.introduction figure{
+    transform: translate(0, 3.8px);
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+.introduction figure img{
+    width: 100%;
+}
+.icon{
+    background-color:  #CCDBF0;
+    text-align: center;
+}
+.icon img{
+    margin: 2rem 1.4rem;
+    height: 35px;
+}
+
+.our-client{
+    text-align: center;
+    background-color:  #F8F9FC;
+    padding: 2rem 3rem;
+}
+
+.connect{
+    background-color: #004DB3;
+    color:white;
+    padding: 4rem 0;
+    text-align: center;
+}
+.connect button{
+    display: block;
+    margin: 0 auto;
+}
+

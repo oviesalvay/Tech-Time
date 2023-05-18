@@ -1,0 +1,47 @@
+.best{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 5rem;
+    background-color:#F8F9FC;
+    padding: 2rem 3rem;
+}
+.the-best{
+    flex-grow: 1;
+    flex-basis: 300px; 
+}
+.best figure{
+    margin: 2rem 0;
+}
+.card{
+    margin: 3rem 0;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 2;
+ 
+}
+.card > div{
+    width: 38%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+}
+#group{
+    background-color: #4C7FBD;
+    padding: .5rem;
+}
+#grouping{
+    background-color: #AECD5E;
+    padding: .5rem;
+}
+#groups{
+    background-color: #ED6BA6;
+    padding: .5rem;
+}
+#grouped{
+    background-color: #EA6B45;
+    padding: .5rem;
+}
