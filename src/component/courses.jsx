@@ -44,7 +44,7 @@ const courses = [
         lesson: '15 lesson',
         lessonicon: book,
         name: 'Jeffery Williams',
-        nameicon: leonard,
+        nameicon: samuel,
         price: '$32.00',
     },
     {
@@ -59,7 +59,7 @@ const courses = [
         lesson: '15 lesson',
         lessonicon: book,
         name: 'Claretta Mason',
-        nameicon: leonard,
+        nameicon: mason,
         price: '$15.00',
     },
     {
@@ -74,7 +74,7 @@ const courses = [
         lesson: '15 lesson',
         lessonicon: book,
         name: 'Jessica Duke',
-        nameicon: leonard,
+        nameicon: mason,
         price: '$15.00',
     },
     {
@@ -89,7 +89,7 @@ const courses = [
         lesson: '15 lesson',
         lessonicon: book,
         name: 'Samuel Jacobs',
-        nameicon: leonard,
+        nameicon:adam,
         price: '$15.00',
     },
     {
@@ -104,7 +104,7 @@ const courses = [
         lesson: '15 lesson',
         lessonicon: book,
         name: 'Adam smith',
-        nameicon: leonard,
+        nameicon: geffery,
         price: '$15.00',
     },
 ]
@@ -173,9 +173,10 @@ const Courses = () => {
                                         <h5>{course.price}</h5>
                                     </div>
                                 </div>
-                            </div>
+                                </div>
                         )
-                    })
+                    }
+                    )
                 }
             </section>
             <button className='view '>Explore All Courses</button>

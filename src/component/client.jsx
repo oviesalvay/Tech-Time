@@ -8,7 +8,7 @@ const Client = () =>{
 <div className='our-client'>
             <h3>What our clients are saying</h3>
             <p>High-defination video is video of higher resolution 
-                and quality than standard definition.<br></br> while there’s no 
+                and quality than standard definition. while there’s no 
                 standard meaning for high definition, generally any standard video image</p>
                 <div className='what-they-said'>
                     <div className='said'>

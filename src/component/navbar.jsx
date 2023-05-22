@@ -1,5 +1,5 @@
 import '../styles/navbar.css'
-import techtime from '../asssest/techtime.svg';
+import techtimelogo  from '../asssest/techtimelogo.svg';
 import { FaTimes, FaBars } from "react-icons/fa"
 import { useState } from 'react';
 
@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <header>
             <nav>
-                <img src={techtime} />
+                <img src={techtimelogo} />
                 <div className={shownav ? "nav-content active" :  "nav-content"}>
                     <li>Home</li>
                     <li>About Us</li>

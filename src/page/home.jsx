@@ -60,7 +60,7 @@ preview</div>
     <Client />
     <section className='connect'>
             <h4>JOIN OUR COMMUNITY</h4>
-            <h2>Are you  ready to connect with the future<br></br> talent of the tech world</h2>
+            <h2>Are you  ready to connect with the future talent of the tech world</h2>
             <p>Meet up with other techstars and grow together</p>
             <img src={frames}/>
             <img src={Grouped}/>

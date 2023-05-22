@@ -4,11 +4,13 @@
     /* align-items: center; */
     gap: 5rem;
     background-color:#F8F9FC;
-    padding: 2rem 3rem;
+    padding:  1rem clamp(1rem, 6vw, 10rem);
+    flex-wrap: wrap;
 }
 .the-best{
     flex-grow: 1;
-    flex-basis: 300px; 
+    flex-basis: 400px; 
+    flex-wrap: wrap;
 }
 .best figure{
     margin: 2rem 0;
@@ -19,7 +21,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     display: flex;
-    flex-basis: 300px;
+    flex-basis: 400px;
     flex-grow: 2;
  
 }
@@ -28,6 +30,7 @@
     padding: 1rem;
     background-color: white;
     border-radius: 8px;
+    flex-grow: 1;
 }
 #group{
     background-color: #4C7FBD;

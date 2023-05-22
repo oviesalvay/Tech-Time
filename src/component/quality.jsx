@@ -36,7 +36,7 @@ const Quality = () => {
                 </div>
             </div>
             <picture>
-                        <img src={frame} />
+                        <img src={frame} id="frame"/>
                 <figure>
                     <img src={unsplash}  id='unsplash'/>
                 </figure>

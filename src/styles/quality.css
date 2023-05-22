@@ -14,22 +14,9 @@
         flex-basis: 400px;
         flex-grow: 1;
     }
-    /* .video{
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
+    #frame{
+        transform: translate(-40%, 180%);
     }
-    .video > div >img{
-        border-radius: 8px;
-        background-color: white;
-        width: 200px;
-    }
-    .video img{
-        padding: 1rem 1rem;
-        z-index: 1;
-        position: absolute;
-        transform: translate(-1rem, -2rem);
-    } */
     .view{
         color: white;
     background-color: #004DB3;

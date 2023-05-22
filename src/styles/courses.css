@@ -4,6 +4,8 @@
 }
 .courses{
     text-align: center;
+    flex-basis: 400px;
+    flex-grow: 1;
 }
 .courses > div{
     display: flex;
@@ -36,6 +38,9 @@
     flex-basis: 300px;
     flex-grow: 1;
 }
+.research > div{
+    flex-wrap: wrap;
+}
 .research > img{
     width: 100%;
 }
@@ -59,4 +64,14 @@ padding: .5rem 1rem;
 .popular-courses button{
     display: block;
     margin: 0 auto;
+}
+@media(max-width: 820px){
+    .researched{
+    flex-wrap: wrap;
+    row-gap: 1rem; 
+    margin: 2rem 0;
+    }
+    .research{
+        flex-basis: 300px;
+    }
 }

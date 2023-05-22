@@ -1,19 +1,29 @@
-.what-they-said{
-    margin: 4rem 0;
-    gap: 1rem;
-    display: flex;
-    overflow-x: scroll;
-    /* overflow-y: hidden; */
+
+.our-client p{
+   max-width: 650px; 
+   text-align: center;
+   margin: 1rem auto;
+   padding: 0 2rem;
 }
-.said{
-    height:400px;
-    width: 400px;
-    border-radius: 34px;
+.what-they-said::-webkit-scrollbar{
+    display: none;
+}
+.what-they-said{
+    display: grid;
+    grid-template-columns: repeat(4, 500px);
+    gap: 2rem;
+    overflow-x: scroll;
+    padding: 1rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+    .said{
+    border-radius: 24px;
     background-color: white;
-    padding: 1rem 1.7rem; 
+    padding: .5rem 1rem 1rem 1rem;
 }
 .client{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    padding: 1rem 0;
 }
