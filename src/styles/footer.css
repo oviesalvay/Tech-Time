@@ -4,22 +4,31 @@
     display: flex;
     justify-content: space-between;
     padding: 4rem 2rem;
+    flex-wrap: wrap;
 }
 .footer-content{
-    flex-basis: 200px;
+    flex-basis: 300px;
 }
 .social-icons{
     margin: 3rem 0;
     display: flex;
     justify-content: space-between;
+
 }
 .usefull-links{
-    flex-basis: 200px;
+    flex-basis: 300px;
 }
 footer li{
      text-transform:capitalize;
     margin: 1rem 0;
     list-style: none;
+}
+.community{
+    flex-basis: 300px;
+}
+.subscribe{
+    /* flex-basis: 300px; */
+    /* flex-wrap: wrap; */
 }
 .input-details{
     margin: 1rem 0;
@@ -46,7 +55,14 @@ input{
     font-size: .8rem;
 }
 @media screen and (max-width: 600px){
-    footer{
-        flex-direction: column;
+    .input-details{
+        flex-grow: 1;
+    }
+    form{
+        display: flex;
+        width: 70%;
+    }
+    .message{
+        padding: 1rem 2rem;
     }
 }

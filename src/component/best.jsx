@@ -4,11 +4,16 @@ import cast from '../asssest/cast.svg';
 import localatm from '../asssest/localatm.svg';
 import groups from '../asssest/groups.svg';
 import schedule from '../asssest/schedule.svg'
+import yellow from '../asssest/yellow.png';
+import triangled from '../asssest/triangled.png';
+import purplecircle from '../asssest/purplecircle.png';
 
 const Best = () =>{
     return(
         <section className='best'>
-        {/* <div> */}
+        <img src={yellow} alt='yellow' className='yellow'/>
+        <img src={triangled} alt="" className='triangled'/>
+        <img src={purplecircle} alt="" className='purplecircle'/>
         <div className='the-best'>
         <h2>This is why we are best from others</h2>
         <p>High-defination video is video of higher resolution and quality 

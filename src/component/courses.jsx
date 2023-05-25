@@ -13,8 +13,7 @@ import leonard from '../asssest/leonard.svg';
 import samuel from '../asssest/samuel.svg';
 import mason from '../asssest/mason.svg';
 import adam from '../asssest/adam.svg';
-// import mask from '../asssest/mask.svg';
-import jessica from '../asssest/jessica.svg';
+import star from '../asssest/star.png';
 
 const courses = [
     {
@@ -112,6 +111,7 @@ const Courses = () => {
     return (
 
         <section className='popular-courses'>
+            <img src={star} alt="" className='star'/>
             <section className='courses'>
                 <h3>Browse Our Popular Courses</h3>
                 <p>High-defination video is video of higher resolution and

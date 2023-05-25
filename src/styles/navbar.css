@@ -10,7 +10,7 @@ nav {
     position: fixed;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: center;  
     justify-content: space-between;
     color: white;
     padding: 1rem clamp(1rem, 6vw, 10rem);
@@ -49,10 +49,7 @@ li {
     display: none;
 }
 
-@media screen and (max-width: 1050px) {
-    nav {
-        /* padding: 2rem 1rem; */
-    }
+@media screen and (max-width: 700px) {
 
     .nav-content {
         position: absolute;
@@ -62,14 +59,13 @@ li {
         flex-direction: column;
         background-color: white;
         color:#004db3;
-        padding: 1rem 0;
-        text-align: center;
+        padding: 1rem 0; 
         max-width: 500px;
         border-radius: 3%;
         transition: all ease 0.5s;
     }
 .nav-content li{
-    margin: 1rem 0;
+    margin: 1rem 2rem;
 }
     .active {
         right:0;
@@ -77,5 +73,20 @@ li {
 
     .hamburger {
         display: block;
+    }
+    nav .btn-enroll{
+        background-color: #004db3;
+        padding: 1rem 1rem;
+    font-size: 1.2rem; 
+    color:white;
+    border: none;
+    border-radius: 4px;
+    font-family: 'satoshi';
+    font-weight: 700;
+    }
+    nav .btn-enroll:hover{
+        background-color: white;
+        color: #004DB3;
+       transition: all ease-in-out 1s;
     }
 }

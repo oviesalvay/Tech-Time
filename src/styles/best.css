@@ -6,6 +6,22 @@
     background-color:#F8F9FC;
     padding:  1rem clamp(1rem, 6vw, 10rem);
     flex-wrap: wrap;
+    position:relative;
+}
+.best .yellow{
+    position: absolute;
+    right: 20%;
+    top: -4%;
+}
+.best .purplecircle{
+    position: absolute;
+    right: 2%;
+    bottom: 0;
+}
+.best .triangled{
+    position: absolute;
+    left: 1rem;
+    bottom: 20%
 }
 .the-best{
     flex-grow: 1;
@@ -47,4 +63,30 @@
 #grouped{
     background-color: #EA6B45;
     padding: .5rem;
+}
+@media screen and (max-width: 900px){
+   .best{
+gap: 2rem;
+}
+.the-best{
+       text-align: center;
+
+   }
+   .best .triangled{
+    left:.5rem;
+   }
+   .best .yellow{
+    display: none;
+   }
+   .high-quality .circle{
+    bottom: 0;
+    right: 2rem;
+   }
+    .card>div{
+        flex-basis: 300px;
+    }
+    #frame{
+        width: 40%;
+        transform: translate(-6rem, 7rem);
+    }
 }

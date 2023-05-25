@@ -1,5 +1,5 @@
 h1{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     color: white;
     font-weight: 600;
 }
@@ -37,7 +37,7 @@ h6{
     flex-basis: 400px;
 }
 .arrow{
-    display: flex;
+    display: flex; 
     align-items: center;
     flex-wrap: wrap;
     gap: .5rem;
@@ -92,9 +92,57 @@ button{
     transform: translate(0, 3.8px);
     flex-basis: 400px;
     flex-grow: 1;
+    position: relative;
+    min-height: 300px;
+    padding: 0;
 }
 .introduction figure img{
     width: 100%;
+}
+.introduction .visualstudio{
+    position: absolute;
+    height: clamp(7rem, 18vw, 19rem);
+    top: 10%;
+    right: -3%;
+}
+.introduction .greencircle{
+    position: absolute;
+    height: 25px;
+    width: 5%;
+    top: 35%;
+    left: 2rem;
+}
+.introduction .yellowtriangle{
+    position: absolute;
+    top: 35%;
+    right: 8%;
+    height: 25px;
+    width:5%;
+}
+.curved{
+    position: absolute;
+    height: clamp(18rem, 5vw, 7rem);
+    bottom: 16%;
+    left: -48%;
+}
+.introduction .bulb{
+    position: absolute;
+    height: clamp(7rem, 17vw, 13rem);
+    top: 5%;
+    left: -45%;
+}
+.introduction .wordpress{
+    position: absolute;
+    bottom: 1rem;
+    right: -13%;
+    height: clamp(3rem, 5vw, 13rem);
+}
+.introduction .figma{
+    position: absolute;
+    z-index: 1;
+    height: clamp(3rem, 5vw, 13rem);
+    top: 65%;
+    left: -45%;
 }
 .icon{
     background-color:  #CCDBF0;
@@ -103,22 +151,41 @@ button{
 .icon img{
     margin: 2rem 1.4rem;
     height: 35px;
-}
-
+}  
 .our-client{
     text-align: center;
     background-color:  #F8F9FC;
     padding: 2rem 3rem;
 }
-
 .connect{
     background-color: #004DB3;
     color:white;
-    padding: 4rem 0;
+    padding: 4rem 3rem;
+    text-align: center;
+}
+.connect h2{
+    max-width: 120 0px;
     text-align: center;
 }
 .connect button{
     display: block;
     margin: 0 auto;
 }
-
+@media screen and (max-width: 600px){
+    .introduction h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .introduction{
+        text-align: center;
+    }
+    .arrow{
+        display: flex;
+    }
+    .introduction h4{
+        font-size: 1rem;
+    }
+    .preview,.introduction{
+        gap: 1rem;
+    }
+}

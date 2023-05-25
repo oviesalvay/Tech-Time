@@ -16,10 +16,13 @@ import Group from '../asssest/Group.png';
 import Grouped from '../asssest/Grouped.svg';
 import Grouping from '../asssest/Grouping.png';
 import arrowoutward from '../asssest/arrowoutward.png';
-import Induction from '../asssest/Induction.svg';
-import Frame from '../asssest/Frame.png';
-import Frameed from '../asssest/Frameed.png';
-import frames from '../asssest/frames.png';
+import bulb from '../asssest/bulb.svg';
+import wordpress from '../asssest/wordpress.svg';
+import Figma from '../asssest/Figma.svg';
+import greencircle from '../asssest/greencircle.png';
+import yellowed from '../asssest/yellowed.png';
+import yellowtriangle from '../asssest/yellowtriagle.png'
+import curved from '../asssest/curved.png';
 const Home = () =>{
     return(
         <div>
@@ -39,13 +42,17 @@ const Home = () =>{
 preview</div>
     </div>
    </div>
-   {/* <img src={VisualStudio}/> */}
    <figure>
-    {/* <img src={Induction}/> */}
-    <img src={heroimage}/>
-    {/* <img src={Frame}/> */}
+    <img src={yellowtriangle} alt="" className='yellowtriangle'/>
+   <img src={VisualStudio} alt="" className='visualstudio'/>
+    <img src={heroimage} alt="" />
+    <img src={greencircle} alt="" className='greencircle'/>
+    <img src={wordpress}className='wordpress' alt=""/>
+   <img src={bulb}className='bulb' alt=""/>
+   <img src={Figma}className='figma' alt=""/>
+   <img src={curved} className='curved' alt=''/>
+   {/* <img src={yellowed} className='yellowed' alt=""/> */}
    </figure>
-   {/* <img src={Frameed}/> */}
    </section>
    <div className='icon'>
     <img src={stripe}/>
@@ -60,9 +67,8 @@ preview</div>
     <Client />
     <section className='connect'>
             <h4>JOIN OUR COMMUNITY</h4>
-            <h2>Are you  ready to connect with the future talent of the tech world</h2>
+            <h2>Are you  ready to connect with the future  talent of the tech world</h2>
             <p>Meet up with other techstars and grow together</p>
-            <img src={frames}/>
             <img src={Grouped}/>
             <img src={Group}/>
             <img src={Grouping}/>

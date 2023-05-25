@@ -6,10 +6,17 @@ import description from '../asssest/description.svg';
 import antenna from '../asssest/antenna.svg';
 import unsplash from '../asssest/unsplash.svg';
 import unsplashed from '../asssest/unsplashed.svg';
+import green from '../asssest/green.png';
+import circle from '../asssest/circle.png';
+import semicircle from '../asssest/semicircle.png';
 
-const Quality = () => {
+
+const Quality = () => {    
     return (
-        <section className='high-quality'>
+        <section className='high-quality'>  
+            <img src={green} alt="" className='green'/>
+            <img src={circle} alt="" className='circle'/> 
+            <img src={semicircle} alt="" className='semicircle'/>
             <div className='quality'>
                 <h2>High quality video, audio & live classes</h2>
                     <p>High-defination video is video of higher resolution and quality than standard definition.

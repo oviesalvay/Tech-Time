@@ -2,12 +2,39 @@
     display: flex;
     gap: 5rem;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding:  1rem clamp(1rem, 6vw, 10rem);
     background-color: #F8F9FC;
-    flex-wrap: wrap;
+    position:relative;
+    }
+     .high-quality h2::before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: clamp(20px, 5vw, 50px);
+        width: clamp(20px, 5vw, 50px);
+        background: url('../asssest/Vectored.png');
+        background-size: cover;
+        top: 1.5rem;
+        left: 3rem;  
+    }
+    .high-quality .green{
+        position: absolute;                   
+         right: 0; 
+        top: 1rem;  
+    }
+    .high-quality .circle{
+        position: absolute;
+        right: 11rem;
+        bottom: 23%;
+    } 
+    .high-quality .semicircle{
+        position: absolute;
+    right: 0;
+    bottom: 25%;
     }
     .quality{
-        flex-basis: 400px;
+        flex-basis: 400px;     
         flex-grow: 1;
     }
     .high-quality picture{
@@ -24,9 +51,11 @@
     padding: 1rem 2rem;
     }
     .view:hover{ 
-    color: white;
+    background-color: white;
+    color:#004DB3;
     transition: all ease .3s;
     font-size: 1rem;
+    border: 2px solid #004DB3;
     }
     .class{
         display: flex;
@@ -51,4 +80,31 @@
     }
     #unsplashed{
         transform: translate(-45%, -50%);
+    
+    }
+    @media screen and (max-width: 900px){
+        .high-quality{
+            text-align: center;
+        }
+        .high-quality h2::before{
+            left: 1rem;
+            top: 3rem;
+        }
+        .quality button{
+            display: block;
+            margin: 1rem auto;
+        }
+        .high-quality .green{
+top: 24rem;
+right:1.7rem;
+        }
+        
+        #unsplashed{
+            transform: translate(9%, -18%);                                      
+            width: 70%;
+        }
+        #frame{
+            transform: translate(-3%, 170%);
+            width: 40%;
+        }
     }

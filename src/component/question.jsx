@@ -1,9 +1,19 @@
 import '../styles/question.css'
 import add from '../asssest/add.svg';
+import yellow from '../asssest/yellow.png';
+import circle from '../asssest/circle.png';
+import shapeleft from '../asssest/shapeleft.png';
+import dash from '../asssest/dash.png';
+import dot from '../asssest/dot.png';
   
   const Question = () =>{
     return (
         <section className='questions'>
+         <img src={circle} className='circle' alt="" />
+            <img src={dot} className='dot' alt="" />
+            <img src={yellow} className='yellow' alt="" />
+            <img src={shapeleft} className='shapeleft' alt=''/>
+            <img src={dash} className='dash' alt=""/>
         <div className='question'>
         <h3>Frequently Asked Questions</h3>
         <p>High-defination video is video of higher resolution and quality 
