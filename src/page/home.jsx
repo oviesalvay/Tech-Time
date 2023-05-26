@@ -13,7 +13,7 @@ import monday from '../asssest/monday.svg';
 import dropbox from '../asssest/dropbox.svg';
 import VisualStudio from '../asssest/VisualStudio.png';
 import Group from '../asssest/Group.png';
-import Grouped from '../asssest/Grouped.svg';
+import Grouped from '../asssest/Frame 209.png';
 import Grouping from '../asssest/Grouping.png';
 import arrowoutward from '../asssest/arrowoutward.png';
 import bulb from '../asssest/bulb.svg';
@@ -68,9 +68,9 @@ preview</div>
             <h4>JOIN OUR COMMUNITY</h4>
             <h2>Are you  ready to connect with the future  talent of the tech world</h2>
             <p>Meet up with other techstars and grow together</p>
-            <img src={Grouped}/>
-            <img src={Group}/>
-            <img src={Grouping}/>
+             <img src={Grouped}/>
+            {/* <img src={Group}/> */}
+            {/* <img src={Grouping}/>  */}
             <button className='enroll'>Join Our Community</button>
         </section>
         <Question />
