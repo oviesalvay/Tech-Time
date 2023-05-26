@@ -51,7 +51,6 @@ preview</div>
    <img src={bulb}className='bulb' alt=""/>
    <img src={Figma}className='figma' alt=""/>
    <img src={curved} className='curved' alt=''/>
-   {/* <img src={yellowed} className='yellowed' alt=""/> */}
    </figure>
    </section>
    <div className='icon'>

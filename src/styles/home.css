@@ -128,7 +128,7 @@ button{
 }
 .introduction .bulb{
     position: absolute;
-    height: clamp(2rem, 7vw, 8rem);
+    height: clamp(2rem, 9vw, 8rem);
     top: 5%;
     left: 5%;
 }
@@ -172,21 +172,26 @@ button{
     display: block;
     margin: 0 auto;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .introduction h1{
         font-size: 2rem;
         text-align: center;
     }
     .introduction{
         text-align: center;
+        padding: 0 1rem;
+        gap:1rem;
     }
     .arrow{
-        display: flex;
+        display: block;
+        margin: 0 auto;
+        padding: 0 1rem;
     }
     .introduction h4{
         font-size: 1rem;
     }
-    .preview,.introduction{
-        gap: 1rem;
+    .preview{
+        display: block;
+        margin: 1rem auto;
     }
 }
