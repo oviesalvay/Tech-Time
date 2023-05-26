@@ -84,7 +84,7 @@ button{
     font-size: 1rem;
 }
 .preview{
-    display: flex;
+    display: flex; 
     gap: 2rem;
     margin: 1rem 0;
 }
@@ -96,14 +96,15 @@ button{
     min-height: 300px;
     padding: 0;
 }
-.introduction figure img{
+.introduction figure .heroimage{
     width: 100%;
 }
+
 .introduction .visualstudio{
     position: absolute;
-    height: clamp(7rem, 18vw, 19rem);
+    height: clamp(2rem, 5vw, 8rem);
     top: 10%;
-    right: -3%;
+    right: 3%;
 }
 .introduction .greencircle{
     position: absolute;
@@ -121,28 +122,28 @@ button{
 }
 .curved{
     position: absolute;
-    height: clamp(18rem, 5vw, 7rem);
+    height: clamp(4rem, 10vw, 7rem);
     bottom: 16%;
-    left: -48%;
+    left: -13%;
 }
 .introduction .bulb{
     position: absolute;
-    height: clamp(7rem, 17vw, 13rem);
+    height: clamp(2rem, 7vw, 8rem);
     top: 5%;
-    left: -45%;
+    left: 5%;
 }
 .introduction .wordpress{
     position: absolute;
     bottom: 1rem;
-    right: -13%;
-    height: clamp(3rem, 5vw, 13rem);
+    right: 7%;
+    height: clamp(2rem, 5vw, 8rem);
 }
 .introduction .figma{
     position: absolute;
     z-index: 1;
-    height: clamp(3rem, 5vw, 13rem);
+    height: clamp(2rem, 5vw, 8rem);
     top: 65%;
-    left: -45%;
+    left: 1%;
 }
 .icon{
     background-color:  #CCDBF0;

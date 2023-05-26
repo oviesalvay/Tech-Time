@@ -20,7 +20,7 @@ return(
         </div>
 </div>
 <div className='Usefull-Links'>
-  <h4>useful links</h4>
+  <h4>Useful links</h4>
   <li>home</li>
   <li>about us</li>
   <li>our courses</li>
@@ -28,7 +28,7 @@ return(
 <li>our community</li>
 </div>
 <div className='Community'>
-  <h4>community</h4>
+  <h4>Community</h4>
   <li>help centers</li>
   <li>partners</li>
   <li>suggestion</li>
@@ -36,7 +36,7 @@ return(
   <li>newsletter</li>
 </div>
 <div className='subscribe'>
-<h4>subscribe us</h4>
+<h4>Subscribe us</h4>
 <div className="input-details">
 <form>
   <input type="email" id="email" placeholder='nft123@gmail.com'/>

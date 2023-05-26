@@ -45,7 +45,7 @@ preview</div>
    <figure>
     <img src={yellowtriangle} alt="" className='yellowtriangle'/>
    <img src={VisualStudio} alt="" className='visualstudio'/>
-    <img src={heroimage} alt="" />
+    <img src={heroimage} alt="" className="heroimage" />
     <img src={greencircle} alt="" className='greencircle'/>
     <img src={wordpress}className='wordpress' alt=""/>
    <img src={bulb}className='bulb' alt=""/>
