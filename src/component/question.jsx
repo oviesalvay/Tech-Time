@@ -28,7 +28,7 @@ import dot from '../asssest/dot.png';
              <h6>Can i change my plan later?</h6>
              </div>
              <figure>
-                <img src={add}/>
+                <img src={add} alt='add'/>
              </figure>
              </div>
              <span></span>
@@ -37,7 +37,7 @@ import dot from '../asssest/dot.png';
              <h6>Are the courses lifetime?</h6>
              </div>
              <figure>
-                <img src={add}/>
+                <img src={add} alt='add'/>
              </figure>
              </div>
              <span></span>
@@ -46,7 +46,7 @@ import dot from '../asssest/dot.png';
              <h6>Do i get certified after taking courses?</h6>
              </div>
              <figure>
-                <img src={add}/>
+                <img src={add} alt='add'/>
              </figure>
              </div>
              <span></span>
@@ -55,7 +55,7 @@ import dot from '../asssest/dot.png';
              <h6>How do i reach out to mentors?</h6>
              </div>
              <figure>
-                <img src={add}/>
+                <img src={add} alt='add'/>
              </figure>
              </div>
              <span></span>
@@ -64,11 +64,11 @@ import dot from '../asssest/dot.png';
              <h6>Do we get job ready after taking courses?</h6>
              </div>
              <figure>
-                <img src={add}/>
+                <img src={add}alt='add'/>
              </figure>
              </div>
              <span></span>
     </section>  
     )
   }
-  export default Question
+  export default Question;

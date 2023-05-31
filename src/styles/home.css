@@ -194,4 +194,8 @@ button{
         display: block;
         margin: 1rem auto;
     }
+    .curved{
+        left: 2%;
+        bottom: 3%;
+    }
 }

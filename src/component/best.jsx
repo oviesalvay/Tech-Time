@@ -25,21 +25,21 @@ const Best = () =>{
             </div>
             <div className='card'>
                 <div>
-            <img src={cast} id="group"/>
+            <img src={cast} id="group" alt="cast"/>
             <h6>Experienced Mentors</h6>
             <p>High-defination video is video of higher resolution and quality
                  than standard definition. high-defination video is video of higher
                   resolution and quality than standard definition. </p>
     </div>
     <div>
-        <img src={schedule} id="grouping"/>
+        <img src={schedule} id="grouping" alt='schedule'/>
         <h6>One-On-One Meetings</h6>
         <p>high-defination video is video of higher resolution 
             and quality than standard definition. high-defination video is
              video of higher resolution and quality than standard definition. </p>
     </div>
             <div>
-                <img src={groups} id="groups"/>
+                <img src={groups} id="groups" alt="groups"/>
                 <h6>One-On-One Meetings</h6>
                 <p>High-defination video is video of higher 
                     resolution and quality than standard definition. 
@@ -47,14 +47,13 @@ const Best = () =>{
                      and quality than standard definition. </p>
             </div>
             <div>
-                <img src={localatm} id="grouped"/>
+                <img src={localatm} id="grouped" alt='localatm'/>
                 <h6>Affordable Prices</h6>
                 <p>High-defination video is video of higher resolution and 
                     quality than standard definition. high-defination video is video of 
                     higher resolution and quality than standard definition. </p>
             </div>
             </div>
-            {/* </div> */}
        </section> 
     )
 }

@@ -129,7 +129,7 @@ const Courses = () => {
                     courses.map((course, index) => {
                         return (
                             <div className='research' key={index}>
-                                <img src={course.img} />
+                                <img src={course.img} alt='img'/>
                                 <div className='research-content'>
                                     <div>
                                         <p id="design">{course.type}</p>
@@ -146,7 +146,7 @@ const Courses = () => {
                                 <div className='research-content'>
                                     <div className='schedule'>
                                         <div>
-                                            <img src={course.timeicon} />
+                                            <img src={course.timeicon} alt='timeicon' />
                                         </div>
                                         <div>
                                           <p> {course.time}</p>
@@ -154,7 +154,7 @@ const Courses = () => {
                                     </div>
                                     <div className='schedule'>
                                         <div>
-                                            <img src={course.lessonicon} />
+                                            <img src={course.lessonicon} alt='lessonicon'/>
                                         </div>
                                         <div>
                                             <p> {course.lesson}</p>
@@ -164,7 +164,7 @@ const Courses = () => {
                                 <div className='research-content'>
                                     <div className='schedule'>
                                         <div>
-                                            <img src={course.nameicon} /></div>
+                                            <img src={course.nameicon} alt='nameicon'/></div>
                                         <div>
                                             <h6>{course.name}</h6>
                                         </div>

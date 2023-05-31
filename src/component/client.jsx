@@ -22,7 +22,7 @@ const Client = () =>{
                          platform in the world</blockquote>
                          <div className='client'>
                             <div>
-                         <img src={jessica}/>
+                         <img src={jessica} alt='jessica'/>
                          </div>
                          <div>
                        <h6>Bella Moon</h6>
@@ -40,7 +40,7 @@ const Client = () =>{
                          build your future with our quality education. the best and largest all-in-one online tutoring 
                          platform in the world</blockquote>
                          <div className='client'>
-                            <img src={leonard}/>
+                            <img src={leonard} alt='leonard'/>
                             <div>
                                 <h6>Samuel Fortune</h6>
                                 <p>Product Designer</p>
@@ -57,7 +57,7 @@ const Client = () =>{
                          build your future with our quality education. the best and largest all-in-one online tutoring 
                          platform in the world</blockquote>
                          <div className='client'>
-                            <img src={adam}/>
+                            <img src={adam} alt='adam'/>
                             <div>
                                 <h6>Bryce Jason</h6>
                                 <p>Product Designer</p>
@@ -74,7 +74,7 @@ const Client = () =>{
                          build your future with our quality education. the best and largest all-in-one online tutoring 
                          platform in the world</blockquote>
                          <div className='client'>
-                            <img src={mason}/>
+                            <img src={mason} alt='mason'/>
                             <div>
                                 <h6>Bryce Jason</h6>
                                 <p>Product Designer</p>

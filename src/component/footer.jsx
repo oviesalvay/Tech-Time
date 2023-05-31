@@ -10,13 +10,13 @@ return(
     <div>
       <footer>
         <div className="footer-content">
-        <img src={techtime}/>
+        <img src={techtime} alt='techtime'/>
         <p>Reach out to us on any of our social media networks</p>
         <div className="social-icons">
-          <img src={facebook}/> 
-          <img src={YouTube}/>
-          <img src={Instagram}/>
-          <img src={Discord}/>
+          <img src={facebook} alt="facebook"/> 
+          <img src={YouTube} alt='youtube'/>
+          <img src={Instagram} alt='instagram'/>
+          <img src={Discord} alt='discord'/>
         </div>
 </div>
 <div className='Usefull-Links'>

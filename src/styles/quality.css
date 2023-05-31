@@ -87,8 +87,8 @@
             text-align: center;
         }
         .high-quality h2::before{
-            left: 1rem;
-            top: 3rem;
+            left: 3rem;
+            top: 3.2rem;
         }
         .quality button{
             display: block;
@@ -97,10 +97,9 @@
         .high-quality .green{
 top: 24rem;
 right:1.7rem;
-        }
-        
+        } 
         #unsplashed{
-            transform: translate(9%, -18%);                                      
+            transform: translate(-10%, -29%);                                      
             width: 70%;
         }
         #frame{

@@ -25,30 +25,30 @@ const Quality = () => {
                 <button className='view'>View Courses</button>
                 <div className='class'>
                     <div className='classes'>
-                        <img src={autoplay} />
+                        <img src={autoplay} alt='autoplay'/> 
                         <p>Record Class</p>
                     </div>
                     <div className='classes'>
-                        <img src={volume} />
+                        <img src={volume} alt='volume'/>
                         <p>Audio Classes</p>
                     </div>
                     <div className='classes'>
-                        <img src={description} />
+                        <img src={description} alt='description'/>
                         <p>Live Classes</p>
                     </div>
                     <div className='classes'>
-                        <img src={antenna} />
+                        <img src={antenna} alt='antenna'/>
                         <p>50+ notes</p>
                     </div>
                 </div>
             </div>
             <picture>
-                        <img src={frame} id="frame"/>
+                        <img src={frame} id="frame" alt='frame'/>
                 <figure>
-                    <img src={unsplash}  id='unsplash'/>
+                    <img src={unsplash}  id='unsplash' alt='unsplash'/>
                 </figure>
                 <figure>
-                    <img src={unsplashed} id='unsplashed' />
+                    <img src={unsplashed} id='unsplashed' alt='unsplashed' />
                 </figure>
             </picture>
         </section>

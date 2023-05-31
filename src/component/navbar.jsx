@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <header>
             <nav>
-                <img src={techtimelogo} />
+                <img src={techtimelogo} alt='techtimelogo'/>
                 <div className={shownav ? "nav-content active" :  "nav-content"}>
                     <li>Home</li>
                     <li>About Us</li>

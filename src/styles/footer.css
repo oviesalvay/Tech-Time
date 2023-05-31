@@ -12,10 +12,10 @@
 .social-icons{
     margin: 3rem 0;
     display: flex;
-    justify-content: space-between;
-
+    gap: 2rem;
 }
 .usefull-links{
+    margin: 2rem 0;
     flex-basis: 300px;
 }
 footer li{
@@ -26,13 +26,10 @@ footer li{
 .community{
     flex-basis: 300px;
 }
-.subscribe{
-    /* flex-basis: 300px; */
-    /* flex-wrap: wrap; */
-}
 .input-details{
     margin: 1rem 0;
     display: flex;
+    align-items: center;
     width:100%;
     max-width: 450px;
     border:1px solid  #054FB3;
@@ -54,15 +51,19 @@ input{
     border: none;
     font-size: .8rem;
 }
-@media screen and (max-width: 600px){
-    .input-details{
-        flex-grow: 1;
+@media screen and (max-width: 900px){
+    .social-icons{
+        justify-content: unset;
+    }
+    input{
+ background-color: #2A2A2B;
+ padding: .7rem .9rem;
     }
     form{
         display: flex;
-        width: 70%;
     }
     .message{
         padding: 1rem 3rem;
+        width: 40%;
     }
 }

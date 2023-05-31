@@ -3,7 +3,7 @@ import Courses from '../component/courses';
 import Quality from '../component/quality';
 import Best from '../component/best'; 
 import Client from '../component/client';
-import Question from '../component/question';
+import Question from '../component/question'
 import frame  from '../asssest/frame.svg';
 import heroimage from '../asssest/heroimage.svg';
 import zoom from '../asssest/zoom.svg';
@@ -12,15 +12,11 @@ import slack from '../asssest/slack.svg';
 import monday from '../asssest/monday.svg';
 import dropbox from '../asssest/dropbox.svg';
 import VisualStudio from '../asssest/VisualStudio.png';
-import Group from '../asssest/Group.png';
-import Grouped from '../asssest/Frame 209.png';
-import Grouping from '../asssest/Grouping.png';
-import arrowoutward from '../asssest/arrowoutward.png';
+import grouped from '../asssest/grouped.png';
 import bulb from '../asssest/bulb.svg';
 import wordpress from '../asssest/wordpress.svg';
 import Figma from '../asssest/Figma.svg';
 import greencircle from '../asssest/greencircle.png';
-import yellowed from '../asssest/yellowed.png';
 import yellowtriangle from '../asssest/yellowtriagle.png'
 import curved from '../asssest/curved.png';
 const Home = () =>{
@@ -36,7 +32,7 @@ const Home = () =>{
     <button className="enroll">Enroll Now</button>
     </div>
     <div className='preview'>
-    <img src={frame} />
+    <img src={frame} alt='frame'/>
     <div>
   <h4>255k+</h4> 
 preview</div>
@@ -54,11 +50,11 @@ preview</div>
    </figure>
    </section>
    <div className='icon'>
-    <img src={stripe}/>
-    <img src={zoom}/>
-    <img src={monday}/>
-    <img src={slack}/>
-    <img src={dropbox}/>
+    <img src={stripe} alt='stripe'/>
+    <img src={zoom} alt='zoom'/>
+    <img src={monday} alt='monday'/>
+    <img src={slack} alt='slack'/>
+    <img src={dropbox} alt='dropbox'/>
    </div>
    <Quality/>
    <Best />
@@ -68,9 +64,7 @@ preview</div>
             <h4>JOIN OUR COMMUNITY</h4>
             <h2>Are you  ready to connect with the future  talent of the tech world</h2>
             <p>Meet up with other techstars and grow together</p>
-             <img src={Grouped}/>
-            {/* <img src={Group}/> */}
-            {/* <img src={Grouping}/>  */}
+             <img src={grouped} alt='grouped'/>
             <button className='enroll'>Join Our Community</button>
         </section>
         <Question />
