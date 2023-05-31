@@ -7,6 +7,9 @@
     flex-wrap: wrap;
     gap: 2rem;
 }
+footer h4{
+    color: white;
+}
 .footer-content{
     flex-basis: 300px;
 }

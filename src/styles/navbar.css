@@ -62,7 +62,7 @@ li {
         padding: 1rem 0; 
         max-width: 500px;
         border-radius: 3%;
-        transition: all ease 0.5s;
+        transition: all ease .8s;
     }
 .nav-content li{
     margin: 1rem 2rem;
@@ -87,6 +87,7 @@ li {
     nav .btn-enroll:hover{
         background-color: white;
         color: #004DB3;
-       transition: all ease-in-out 1s;
+       /* transition: all ease-in-out 1s; */
+       transition: all ease-in 1s;
     }
 }

@@ -85,21 +85,33 @@
     @media screen and (max-width: 900px){
         .high-quality{
             text-align: center;
+            gap: 0
         }
         .high-quality h2::before{
-            left: 3rem;
-            top: 3.2rem;
+            left: 1.2rem;
+            top: 3rem;
+        }
+        .high-quality h2{
+            font-size: 1.1rem;
+
         }
         .quality button{
             display: block;
             margin: 1rem auto;
         }
         .high-quality .green{
-top: 24rem;
-right:1.7rem;
+            top: 18rem;
+            right:1.7rem;
         } 
+        .class{
+            flex-wrap: wrap;
+        }
+        .classes{
+            flex-grow: 1;
+        flex-basis: 150px;
+        }
         #unsplashed{
-            transform: translate(-10%, -29%);                                      
+            transform: translate(-16%, -29%);                                      
             width: 70%;
         }
         #frame{

@@ -36,6 +36,9 @@ h6{
     margin: 5rem 0;
     flex-basis: 400px;
 }
+.introduction h4{
+    color: white;
+}
 .arrow{
     display: flex; 
     align-items: center;
@@ -128,7 +131,7 @@ button{
 }
 .introduction .bulb{
     position: absolute;
-    height: clamp(2rem, 9vw, 8rem);
+    height: clamp(3rem, 9vw, 8rem);
     top: 5%;
     left: 5%;
 }
@@ -164,13 +167,13 @@ button{
     padding: 4rem 3rem;
     text-align: center;
 }
-.connect h2{
-    max-width: 120 0px;
+.connect h2, .connect h4{
+    color: white;
     text-align: center;
 }
 .connect button{
     display: block;
-    margin: 0 auto;
+    margin: 1.3rem auto;
 }
 @media screen and (max-width: 900px){
     .introduction h1{
@@ -197,5 +200,15 @@ button{
     .curved{
         left: 2%;
         bottom: 3%;
+    }
+    .icon img{
+        height: 15px;
+        margin:1rem;
+    }
+    .connect h2{
+        font-size: 1.3rem;
+    }
+    .connect h4{
+        font-size: 1rem;
     }
 }

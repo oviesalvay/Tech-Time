@@ -10,22 +10,27 @@
 }
 .courses{
     text-align: center;
-    flex-basis: 400px;
-    flex-grow: 1;
 }
-.courses > div{
+.dev{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 4rem;
 }
+.dev p:hover{
+    color:#004DB3;
+    background-color:  #1E5DCE33;
+}
 .categories{
     color:#004DB3;
     background-color: white;
     text-align: center;     
-    padding: .5rem 0rem;       
+    padding: .5rem .4rem;       
 }
 #design{
+    background-color:  #1E5DCE33;
+    border-radius: 16px;
+    padding: .5rem 1rem;
     color: #1E5DCE;
 }
 .popular-courses h4{
@@ -65,11 +70,6 @@
     align-items: center;
     margin: 1rem 0;
 }
-#design{
-    background-color:  #1E5DCE33;
-border-radius: 16px;
-padding: .5rem 1rem;
-}
 .schedule{
     display: flex;
     align-items: center;
@@ -77,11 +77,23 @@ padding: .5rem 1rem;
 }
 .popular-courses button{
     display: block;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 @media(max-width: 900px){
     .popular-courses .star{
-        top: -.6rem;
+        top: -3rem;
+    }
+    .popular-courses{
+        padding: 1rem;
+    }
+    .popular-courses h3{
+        font-size: 1.1rem;
+    }
+    .popular-courses p{
+        font-size: .9rem;
+    }
+    .categories{
+        padding: 0;
     }
     .courses>div{
         gap:1rem;
@@ -90,9 +102,15 @@ padding: .5rem 1rem;
     .courses > div p{
         font-size: .7rem;  
     }
-    
+    .researched{
+        margin: 0;
+        padding: 0;
+    }
     .schedule{
-        gap: 7rem;
-        
+        display: flex;
+        justify-content: space-between;  
+    }
+    .popular-courses button{
+        margin: 2rem autowu;
     }
 }

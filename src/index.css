@@ -25,16 +25,17 @@ h3,
 h4,
 h5 {
   font-family: 'Clash Grotesk', sans-serif;
+  color: #000F24;
 }
 p{
-  color:lightgrey;
+  color:#A1A1A1;
   margin: 1rem 0;
   font-family: 'satoshi';
   line-height: 1.5rem;
   font-size: 1.1rem;
   }
   blockquote{
-    color:lightgrey;
+    color:#A1A1A1;
     font-size: 1rem;
-    margin: 1rem 0;
+    margin: 1.2rem 0;
 }

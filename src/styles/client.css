@@ -35,10 +35,17 @@
     .our-client{
         padding: 0;
     }
+    .our-client h3{
+        font-size: 1.3rem;
+    }
+    .our-client p, blockquote,h6{
+        font-size: .9rem;
+    }
     .client{
         gap: 2rem;
     }
     .client p{
         padding: 0;
+        font-size: .7rem;
     }
 }

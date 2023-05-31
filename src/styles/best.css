@@ -38,8 +38,7 @@
     gap: 2rem;
     display: flex;
     flex-basis: 400px;
-    flex-grow: 2;
- 
+    flex-grow: 2; 
 }
 .card > div{
     width: 38%;
@@ -68,12 +67,19 @@
    .best{
 gap: 2rem;
 }
+.best h2{
+    font-size: 1.2rem;
+}
+.best h6, p{
+    font-size: 1rem;
+}
 .the-best{
        text-align: center;
-
    }
    .best .triangled{
-    left:.3rem;
+    right:10rem;
+    bottom: 18%;
+    
    }
    .best .yellow{
     display: none;

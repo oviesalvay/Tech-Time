@@ -19,8 +19,8 @@
 }
 .questions .dash{
     position: absolute;
-    right: 4rem;
-    top: 18rem;
+    right: 7rem;
+    top: 16rem;
 }
 .questions .dot{
     position: absolute;
@@ -49,14 +49,27 @@
     margin: 1.2rem 0;
 }
 @media screen and (max-width:900px){
+    .questions{
+        padding: 2rem .8rem;
+    }
     .questions h3{
 font-size: 1.5rem;
     }
+    .questions h5{
+        font-size: 1rem;
+    }
     .questions .yellow{
-        /* right: -2rem; */
-        bottom: -4rem;
+        top: 23%;
+    }
+    .questions .dash{
+        top: 17rem;
+        right: 2rem;
     }
     .questions .shapeleft{
         display: none;
+    }
+    .questions .circle{
+        top: 1rem;
+        right: 1rem;
     }
 }

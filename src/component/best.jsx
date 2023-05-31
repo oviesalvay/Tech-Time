@@ -34,7 +34,7 @@ const Best = () =>{
     <div>
         <img src={schedule} id="grouping" alt='schedule'/>
         <h6>One-On-One Meetings</h6>
-        <p>high-defination video is video of higher resolution 
+        <p>High-defination video is video of higher resolution 
             and quality than standard definition. high-defination video is
              video of higher resolution and quality than standard definition. </p>
     </div>
