@@ -15,12 +15,11 @@ code {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
-  border: 1px solid red;
 }
 img{
   max-width:  100%;
 }
-h1,
+h1, 
 h2,
 h3,
 h4,

@@ -40,7 +40,7 @@ return(
 <div className="input-details">
 <form>
   <input type="email" id="email" placeholder='nft123@gmail.com'/>
-    <button className='message'>send message</button>
+    <button className='message'>Send Message</button>
 </form>
 </div>
 </div>

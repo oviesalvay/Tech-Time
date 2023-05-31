@@ -5,6 +5,7 @@
     justify-content: space-between;
     padding: 4rem 2rem;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 .footer-content{
     flex-basis: 300px;
@@ -28,42 +29,28 @@ footer li{
 }
 .input-details{
     margin: 1rem 0;
-    display: flex;
-    align-items: center;
     width:100%;
     max-width: 450px;
     border:1px solid  #054FB3;
 }
 form{
-    border: none;   
+    border: none; 
+    display: flex;
+    flex-wrap: wrap;  
 }
 input{
     flex-grow: 1;
     background-color: #2A2A2B;
     border: none;
-    padding: 1rem 1rem;
+    padding: 1rem;
 }
+
 .message{
     color: white;
     background-color: #004DB3;
     margin: 0;
-    padding: 1rem ;
+    padding: 1rem;
     border: none;
-    font-size: .8rem;
-}
-@media screen and (max-width: 900px){
-    .social-icons{
-        justify-content: unset;
-    }
-    input{
- background-color: #2A2A2B;
- padding: .7rem .9rem;
-    }
-    form{
-        display: flex;
-    }
-    .message{
-        padding: 1rem 3rem;
-        width: 40%;
-    }
+    font-size: .9rem; 
+    flex-grow: 1; 
 }

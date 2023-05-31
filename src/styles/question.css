@@ -29,7 +29,10 @@
 }
 .question{
     text-align: center;
-    margin: 4rem 0;
+}
+.quest{
+    margin: 4rem auto;
+    max-width: 1000px;
 }
 .plans{
     display: flex;

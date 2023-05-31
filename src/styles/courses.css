@@ -28,6 +28,16 @@
 #design{
     color: #1E5DCE;
 }
+.popular-courses h4{
+    font-size: 1.3rem;
+    color: #000F24;
+}
+.popular-courses h5{
+    font-size: 1rem;
+}
+.popular-courses h6{
+    font-size: 1rem;
+}
 .researched{
     display: flex;
     flex-wrap: wrap;
@@ -58,13 +68,12 @@
 #design{
     background-color:  #1E5DCE33;
 border-radius: 16px;
-width: 99px;
 padding: .5rem 1rem;
 }
 .schedule{
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: .3rem;
 }
 .popular-courses button{
     display: block;
@@ -83,7 +92,7 @@ padding: .5rem 1rem;
     }
     
     .schedule{
-        gap: 2rem;
+        gap: 7rem;
         
     }
 }

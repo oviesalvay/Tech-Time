@@ -18,7 +18,9 @@ import dot from '../asssest/dot.png';
         <h3>Frequently Asked Questions</h3>
         <p>High-defination video is video of higher resolution and quality 
             than standard definition. <br></br>while there’s no standard meaning for high definition,
-             generally any standard video image</p></div>
+             generally any standard video image</p>
+             </div>
+             <div className='quest'>
              <h5>Is there a free trial available?</h5>
         <p>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education.
              the best and largest all-in-one online tutoring platform in the worldd definition. </p>
@@ -68,6 +70,8 @@ import dot from '../asssest/dot.png';
              </figure>
              </div>
              <span></span>
+                            
+             </div>
     </section>  
     )
   }
