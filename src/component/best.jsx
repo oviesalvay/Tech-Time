@@ -20,7 +20,7 @@ const Best = () =>{
             than standard definition. while there’s no standard meaning for high definition, 
             generally any standard video image</p>
             <figure>
-                <img src={unsplashs}/>
+                <img src={unsplashs} alt='unsplash'/>
             </figure>
             </div>
             <div className='card'>

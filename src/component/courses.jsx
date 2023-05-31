@@ -136,7 +136,7 @@ const Courses = () => {
                                     </div>
                                     <div>
                                         {course.rating1}
-                                        <img src={course.star} />
+                                        <img src={course.star} alt='' />
                                         {course.rating2}
                                     </div>
                                 </div>
